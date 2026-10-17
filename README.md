@@ -20,14 +20,14 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 10. Display the final solution of each variable using the print() statement.
 
 ## Program
-'''Program to solve a matrix using Gaussian elimination without partial pivoting.
-Developed by: swetha s
-RegisterNumber: 26012309
-'''
-import os
-os.environ["OPENBLAS_NUM_THREADS"]="1"
-import numpy as np
-import sys
+# '''Program to solve a matrix using Gaussian elimination without partial pivoting.
+# Developed by: swetha s
+# RegisterNumber: 26012309
+# '''
+# import os
+# os.environ["OPENBLAS_NUM_THREADS"]="1"
+# import numpy as np
+# import sys
 #Reading number of unknowns
 n = int(input())
 #Making numpy array of n*n+1 size and initializing
